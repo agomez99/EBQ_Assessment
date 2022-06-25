@@ -6,6 +6,7 @@ html,body {
 
 p {
     font-family: Open Sans;
+    font-size: 15px;
 }
 
 h1 {
@@ -113,5 +114,20 @@ h1 {
     .div2,
     .div3 {
         text-align: center !important;
+    }
+
+    h1 {
+        padding: 0px 5px;
+    }
+    
+    .div1 {
+        background-color: #ebf4ff;
+        padding: 10% 25% 5% 15%;
+    }
+    
+    .div2,
+    .div3 {
+        padding: 5% 5% 5% 5%;
+    
     }
 }
