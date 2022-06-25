@@ -1,24 +1,44 @@
-p, h1{
+.container {
+    overflow-y: hidden;
+}
+
+p {
     font-family: Open Sans;
 }
 
-.navbar{
-    background-color: #EBF4FF;
+h1 {
+    font-weight: normal;
 }
+
+.navbar {
+    background-color: #ebf4ff;
+}
+
+.navbar-brand {
+    margin-left: 3%;
+}
+
 .contact-btn {
     width: 130px;
     height: 32px;
+    margin-right: 25%;
     text-align: center;
     font: bold;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 1;
-    background-color: #2979F2;
-    border-color: #2979F2;
+    background-color: #2979f2;
+    border-color: #2979f2;
     border-radius: 16px;
     float: right;
+}
+
+.contact-btn:hover {
+    background-color: #ffbe3c;
+    color: #2979f2;
+    border-color: #ffbe3c;
 }
 
 .contact-btn-footer {
@@ -29,51 +49,67 @@ p, h1{
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0px;
-    color: #0A459E;
-    background-color: #0A459E;
-    border-color: #0A459E;
+    color: #0a459e;
+    background-color: #0a459e;
+    border-color: #0a459e;
     opacity: 1;
-    background-color: #FFBE3C;
+    background-color: #ffbe3c;
     border-radius: 16px;
     float: center;
 }
-.div1{
-    background-color:#EBF4FF ;
-    padding:8%;
-    
-}
-.div2{
-    padding:8%;
 
+.contact-btn-footer:hover {
+    background-color: #2979f2;
+    color: #ffbe3c;
+    border-color: #2979f2;
 }
-.div3{
-    padding:8%;
 
+.div1 {
+    background-color: #ebf4ff;
+    padding: 5% 15%;
 }
-.tool-svg{
-    max-width:578px;
-    max-height:410px;
+
+.div2,
+.div3 {
+    padding: 8%;
+    padding: 5% 15%;
+}
+
+.tool-svg {
+    max-width: 578px;
+    max-height: 410px;
     width: 100%;
 }
-.marketing-img{
-    max-width:500px;
-    max-height:446px;
+
+.marketing-img {
+    max-width: 500px;
+    max-height: 446px;
     width: 100%;
     height: auto;
 }
 
 .foot {
-    background-color: #0A459E;
-    color:#FFFFFF;
+    background-color: #0a459e;
+    color: #ffffff;
     height: 392px;
     width: 100%;
-    text-align:center;
+    text-align: center;
     padding-top: 10%;
- 
+}
+
+#container img.zoomed {
+    transform: scale(1.5);
+}
+
+#container2 img.zoomed {
+    transform: scale(1.5);
 }
 
 @media (max-device-width: 600px) {
-    .div1, .div2, .div3 {
-      text-align: center !important;
+
+    .div1,
+    .div2,
+    .div3 {
+        text-align: center !important;
     }
-  }
+}
