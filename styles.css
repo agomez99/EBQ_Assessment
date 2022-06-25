@@ -1,5 +1,7 @@
-.container {
-    overflow-y: hidden;
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 
 p {
@@ -66,13 +68,13 @@ h1 {
 
 .div1 {
     background-color: #ebf4ff;
-    padding: 5% 15%;
+    padding: 10% 25% 5% 15%;
 }
 
 .div2,
 .div3 {
-    padding: 8%;
-    padding: 5% 15%;
+    padding: 10% 25% 5% 15%;
+
 }
 
 .tool-svg {
