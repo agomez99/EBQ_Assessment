@@ -109,6 +109,10 @@ h1 {
 }
 
 @media (max-device-width: 600px) {
+    p{
+        font-size: 20px;
+        margin: -2% -2% 1% 1%;
+    }
 
     .div1,
     .div2,
@@ -122,12 +126,12 @@ h1 {
     
     .div1 {
         background-color: #ebf4ff;
-        padding: 10% 25% 5% 15%;
+        padding: 5% 5% 10% 10%;
     }
     
     .div2,
     .div3 {
-        padding: 5% 5% 5% 5%;
+        padding: 5% 5% 10% 10%;
     
     }
 }
